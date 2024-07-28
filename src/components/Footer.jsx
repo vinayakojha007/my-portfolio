@@ -1,15 +1,15 @@
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 export default function Footer() {
-  const githubURL = "https://github.com/dasurahul";
-  const linkedinURL = "https://linkedin.com/in/dasurahul";
+  const githubURL = "https://github.com/vinayakojha007";
+  const linkedinURL = "https://www.linkedin.com/in/vinayakojha";
   return (
     <footer className="border border-gray-200 bg-white rounded-lg shadow mb-4">
       <div className="w-full mx-auto max-w-screen-xl p-4 grid gap-4 justify-start md:flex md:items-center md:justify-between">
         <span className="text-sm text-gray-500 sm:text-center">
-          © 2023{" "}
+          © 2024{" "}
           <a href="/" className="hover:underline">
-            Dasu Rahul™
+            Vinayak Ojha™
           </a>
           . All Rights Reserved.
         </span>

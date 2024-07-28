@@ -4,8 +4,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import animationData from "../assets/animation.json";
 
 export default function Intro() {
-  const linkedinURL = "https://linkedin.com/in/dasurahul";
-  const githubURL = "https://github.com/dasurahul";
+  const linkedinURL = "https://www.linkedin.com/in/vinayakojha";
+  const githubURL = "https://github.com/vinayakojha007";
 
   return (
     <div className="min-h-[calc(100vh_-_5rem)] grid grid-cols-autofit gap-4 justify-items-center items-center">
@@ -14,7 +14,7 @@ export default function Intro() {
           Software Engineer
         </h1>
         <p className="mb-6">
-          Hello there! I&apos;m Dasu Rahul, a software engineer at Kellton,
+          Hello there! I&apos;m Vinayak Ojha, a software engineer at Kellton,
           specializing in frontend development. I&apos;m passionate about
           creating user-friendly interfaces.
         </p>

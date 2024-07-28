@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {
   BiLogoJavascript,
   BiLogoTailwindCss,
@@ -10,6 +11,7 @@ import {
   SiNextdotjs,
   SiNodedotjs,
   SiSass,
+  SiFlutter,
 } from "react-icons/si";
 
 import Navbar from "./components/Navbar";
@@ -33,32 +35,32 @@ export default function App() {
           desgination="Software Engineer"
           company="Kellton"
           imageSrc="assets/kellton.svg"
-          range="2022 Aug - Present"
+          range="2022 Jul - Present"
           invertImage={true}
         />
         <Experience
           desgination="Trainee - Software Development"
           company="Kellton"
           imageSrc="assets/kellton.svg"
-          range="2022 Feb - 2022 Aug"
+          range="2022 Jan - 2022 Aug"
           invertImage={true}
         />
       </Section>
 
       <Section title="Projects" autofit={true}>
         <Project
-          title="Encode"
-          subtitle="Encode is a web application that allows users to write, edit, and preview HTML, CSS, and JavaScript code in real-time."
-          imageSrc="assets/encode.png"
-          liveUrl="https://encode-rahul.vercel.app"
-          githubUrl="https://github.com/dasurahul/encode"
+          title="Wild-oasis"
+          subtitle="Wild-oasis is a web application that allows users to Add Cabins and can check the total bookings, and see the sales Dashboard in real-time."
+          imageSrc="assets/logo-light.png"
+          liveUrl="https://wild-oasis-silk.vercel.app/dashboard"
+          githubUrl="hhttps://github.com/vinayakojha007/wild-oasis"
         />
         <Project
-          title="Friends App"
-          subtitle="This is a application that allows users to search for a character in the friends series. Built with Angular."
+          title="Eat-n-Split"
+          subtitle="This is a application that allows users to split the money for the food they have expense"
           imageSrc="assets/friends-app.png"
-          liveUrl="https://friends-app-rahul.vercel.app"
-          githubUrl="https://github.com/dasurahul/friends-app"
+          // liveUrl="https://friends-app-rahul.vercel.app"
+          githubUrl="https://github.com/vinayakojha007/eat-n-split"
         />
         <Project
           title="My Portfolio"
@@ -70,45 +72,54 @@ export default function App() {
       </Section>
 
       <Section title="Skills" autofit={true}>
-        <Skill icon={<SiNextdotjs />} name="Next.js" color="#000000" />
+        {/* <Skill icon={<SiNextdotjs />} name="Next.js" color="#000000" /> */}
         <Skill icon={<FaReact />} name="React" color="#61DBFB" />
-        <Skill icon={<FaAngular />} name="Angular" color="#DD1B16" />
-        <Skill icon={<BiLogoTypescript />} name="TypeScript" color="#007ACC" />
+        <Skill icon={<FaReact />} name="ReactNative" color="#61DBFB" />
         <Skill icon={<BiLogoJavascript />} name="JavaScript" color="#F0DB4F" />
         <Skill
           icon={<BiLogoTailwindCss />}
           name="Tailwind CSS"
           color="#0DB7ED"
         />
-        <Skill icon={<SiSass />} name="Sass" color="#C69" />
-        <Skill icon={<SiMongodb />} name="MongoDB" color="#00684A" />
-        <Skill icon={<SiExpress />} name="Express.js" color="#000000" />
-        <Skill icon={<SiNodedotjs />} name="Node.js" color="#3C873A" />
+        <Skill icon={<SiFlutter />} name="Flutter" color="#0DB7ED" />
+
+        {/* <Skill icon={<FaAngular />} name="Angular" color="#DD1B16" /> */}
+        {/* <Skill icon={<BiLogoTypescript />} name="TypeScript" color="#007ACC" /> */}
+
+        {/* <Skill
+          icon={<BiLogoTailwindCss />}
+          name="Tailwind CSS"
+          color="#0DB7ED"
+        /> */}
+        {/* <Skill icon={<SiSass />} name="Sass" color="#C69" /> */}
+        {/* <Skill icon={<SiMongodb />} name="MongoDB" color="#00684A" /> */}
+        {/* <Skill icon={<SiExpress />} name="Express.js" color="#000000" /> */}
+        {/* <Skill icon={<SiNodedotjs />} name="Node.js" color="#3C873A" /> */}
       </Section>
 
       <Section title="Education">
         <Education
-          education="BCA"
-          imageSrc="assets/berhampur_university.png"
-          educator="Berhampur University"
-          range="2019 - 2022"
+          education="BTECH"
+          imageSrc="assets/csvtu.png"
+          educator="Chhattisgarh Swami Vivekanand Technical University"
+          range="2018 - 2022"
         />
       </Section>
 
       <Section title="Certifications">
         <Certification
-          certificationName="Angular - The Complete Guide (2023 Edition)"
+          certificationName="The Ultimate React Course"
           imageSrc="assets/udemy.svg"
           certificationProvider="Udemy"
-          certificateURL="https://udemy-certificate.s3.amazonaws.com/pdf/UC-319460cf-2a2c-4bbb-86c0-fc99aa5cb5f9.pdf"
+          certificateURL="https://www.udemy.com/certificate/UC-fabe6993-6f57-4c26-b027-c1fcf3990db7/"
         />
         <Certification
-          certificationName="React (Basic) Certificate"
-          imageSrc="assets/hackerrank.jpeg"
-          certificationProvider="HackerRank"
-          certificateURL="https://www.hackerrank.com/certificates/07cc06c37c11"
+          certificationName="Git and Github for Beginners"
+          imageSrc="assets/udemy.svg"
+          certificationProvider="Udemy"
+          certificateURL="https://udemy.com/certificate/UC-9479d182-1b6e-4a7a-907c-ee56fb33d7d2/"
         />
-        <Certification
+        {/* <Certification
           certificationName="JavaScript (Intermediate) Certificate"
           imageSrc="assets/hackerrank.jpeg"
           certificationProvider="HackerRank"
@@ -125,7 +136,7 @@ export default function App() {
           imageSrc="assets/hackerrank.jpeg"
           certificationProvider="HackerRank"
           certificateURL="https://www.hackerrank.com/certificates/13f1053481f2"
-        />
+        /> */}
       </Section>
 
       <Footer />
