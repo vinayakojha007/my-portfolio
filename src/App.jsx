@@ -67,7 +67,7 @@ export default function App() {
           subtitle="This is my portfolio. Here you will find all my experience, projects, skills, education, certifications and more."
           imageSrc="assets/my-portfolio.png"
           liveUrl="/"
-          githubUrl="https://github.com/dasurahul/my-portfolio"
+          githubUrl="https://github.com/vinayakojha007/my-portfolio"
         />
       </Section>
 
