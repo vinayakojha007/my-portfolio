@@ -63,7 +63,7 @@ export default function App() {
         />
 
         <Project
-          title="Hooper – Fuel & Fleet Management"
+          title="Hooper – Low-Code / No-Code platform"
           subtitle='Hooper is an intelligent service framework that can be used to design quick, comprehensive business flows that deliver instant apps, by anyone, without writing code.Migrated the application from Angular to React.Integrated third-party APIs, and enhanced application maintainability through a modular architecture.'
           imageSrc="assets/hooper.webp"
           liveUrl="https://hooperlabs.com/"
