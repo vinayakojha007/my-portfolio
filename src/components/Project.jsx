@@ -26,7 +26,7 @@ export default function Project({
             Live
             <CgMediaLive />
           </a>
-          <a
+         {githubUrl && <a
             href={githubUrl}
             target="_blank"
             rel="noreferrer"
@@ -35,6 +35,7 @@ export default function Project({
             Github
             <DiGithubAlt />
           </a>
+        }
         </div>
       </div>
     </div>

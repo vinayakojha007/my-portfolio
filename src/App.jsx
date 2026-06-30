@@ -32,6 +32,13 @@ export default function App() {
 
       <Section title="Experience">
         <Experience
+          desgination="Frontend Developer"
+          company="HCLTech"
+          imageSrc="assets/hcltech.svg"
+          range="2025 March - Present"
+          invertImage={true}
+        />
+        <Experience
           desgination="Software Engineer"
           company="Kellton"
           imageSrc="assets/kellton.svg"
@@ -47,6 +54,29 @@ export default function App() {
         />
       </Section>
 
+      <Section title="Professional Projects" autofit={true}>
+        <Project
+          title="Western Union – Cross Border Payments"
+          subtitle="Developed enterprise-grade frontend modules for cross-border payment workflows using React,ReactNative, GraphQL, and TypeScript. Built reusable components, integrated secure payment APIs, optimized performance, and collaborated with cross-functional teams to deliver scalable financial solutions."
+          imageSrc="assets/wu.jpg"
+          liveUrl="https://www.westernunion.com/au/en/home.html"
+        />
+
+        <Project
+          title="Hooper – Fuel & Fleet Management"
+          subtitle='Hooper is an intelligent service framework that can be used to design quick, comprehensive business flows that deliver instant apps, by anyone, without writing code.Migrated the application from Angular to React.Integrated third-party APIs, and enhanced application maintainability through a modular architecture.'
+          imageSrc="assets/hooper.webp"
+          liveUrl="https://hooperlabs.com/"
+        />
+
+        <Project
+          title="KFC – Offline"
+          subtitle="Developed an offline-first application for Area Coaches and Restaurant General Managers (RGMs) to perform daily store routine checks, operational audits, and compliance activities without internet connectivity. Reduced redundant API calls by nearly 40%, implemented Role-Based Access Control (RBAC), and ensured reliable data synchronization once the device was back online."
+          imageSrc="assets/kfc-logo.jpg"
+          liveUrl="https://play.google.com/store/apps/details?id=com.kfc.sa&gl=za"
+        />
+      </Section>
+
       <Section title="Projects" autofit={true}>
         <Project
           title="Wild-oasis"
@@ -55,13 +85,13 @@ export default function App() {
           liveUrl="https://wild-oasis-silk.vercel.app/dashboard"
           githubUrl="hhttps://github.com/vinayakojha007/wild-oasis"
         />
-        <Project
+        {/* <Project
           title="Eat-n-Split"
           subtitle="This is a application that allows users to split the money for the food they have expense"
           imageSrc="assets/friends-app.png"
           // liveUrl="https://friends-app-rahul.vercel.app"
           githubUrl="https://github.com/vinayakojha007/eat-n-split"
-        />
+        /> */}
         <Project
           title="My Portfolio"
           subtitle="This is my portfolio. Here you will find all my experience, projects, skills, education, certifications and more."
@@ -76,6 +106,7 @@ export default function App() {
         <Skill icon={<FaReact />} name="React" color="#61DBFB" />
         <Skill icon={<FaReact />} name="ReactNative" color="#61DBFB" />
         <Skill icon={<BiLogoJavascript />} name="JavaScript" color="#F0DB4F" />
+        <Skill icon={<BiLogoTypescript />} name="JavaScript" color="#3178C6" />
         <Skill
           icon={<BiLogoTailwindCss />}
           name="Tailwind CSS"

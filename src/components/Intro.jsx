@@ -14,9 +14,7 @@ export default function Intro() {
           Software Engineer
         </h1>
         <p className="mb-6">
-          Hello there! I&apos;m Vinayak Ojha, a software engineer at Kellton,
-          specializing in frontend development. I&apos;m passionate about
-          creating user-friendly interfaces.
+          Hello there! I&apos;m Vinayak Ojha, Frontend Engineer at HCLTech specializing in React, React Native, TypeScript, and fintech applications—building secure, scalable, and intuitive digital experiences.
         </p>
         <div className="flex gap-4">
           <a
