@@ -106,7 +106,7 @@ export default function App() {
         <Skill icon={<FaReact />} name="React" color="#61DBFB" />
         <Skill icon={<FaReact />} name="ReactNative" color="#61DBFB" />
         <Skill icon={<BiLogoJavascript />} name="JavaScript" color="#F0DB4F" />
-        <Skill icon={<BiLogoTypescript />} name="JavaScript" color="#3178C6" />
+        <Skill icon={<BiLogoTypescript />} name="TypeScript" color="#3178C6" />
         <Skill
           icon={<BiLogoTailwindCss />}
           name="Tailwind CSS"
